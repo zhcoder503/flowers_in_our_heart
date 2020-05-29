@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+
+<html>
+    <link rel="stylesheet" href="static/design.css">
+    <body>
+        {% for profile in profile_list %}
+        <p>Name: {{ profile.name }}</p>
+        <br>
+        <p>Birthday: {{ profile.birthday }}</p>
+        <br>
+        <p>Horoscope: {{ profile.horoscope }}</p>
+        <br>
+        {% endfor %}
+        
+    </body>
+</html>

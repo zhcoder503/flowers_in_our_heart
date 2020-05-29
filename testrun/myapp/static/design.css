@@ -1,0 +1,14 @@
+body{
+    background-image:url('/static/girl.jpg') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+img{
+    width:50%;
+    height:auto;
+}
+
+p{
+    color:red;
+    font-size: 150%;
+}
